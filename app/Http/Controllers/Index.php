@@ -13,29 +13,30 @@ class Index extends Controller {
   //  $csvobj = new CsvActivity();
 
     // form variables
-    echo $clientname = $_POST['client_name'];
-    echo $gender = $_POST['optionsGenderRadio'];
-    echo $phone = $_POST['phone'];
-    echo $email = $_POST['email'];
-    echo $address = $_POST['address'];
-    echo $nationality = $_POST['nationality'];
-    echo $dob = $_POST['dob'];
-    echo $edubck = $_POST['edubck'];
-    echo $prefmodcontact = $_POST['prefmodcontact'];
+    $clientname = $_POST['client_name'];
+    $gender = $_POST['optionsGenderRadio'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $address = $_POST['address'];
+    $nationality = $_POST['nationality'];
+    $dob = $_POST['dob'];
+    $edubck = $_POST['edubck'];
+    $prefmodcontact = $_POST['prefmodcontact'];
 
-     $clientdata = $clientname.",".$gender.",".$phone.",".$email.",".str_replace(',','-',$address).",".$nationality.","
-    .$dob.",".$edubck.",".$prefmodcontact;
+    if(!empty($clientname) && !empty($gender) && !empty($phone) && !empty($email) && !empty($dob)){
+      $clientdata = $clientname.",".$gender.",".$phone.",".$email.",".str_replace(',','-',$address).",".$nationality.","
+      .$dob.",".$edubck.",".$prefmodcontact;
 
-    $fp = fopen("formdata.csv","a");
-    if($fp)
-    {
+      $fp = fopen("formdata.csv","a");
+      if($fp)
+      {
       fwrite($fp,$clientdata."\n");
       fclose($fp);
      //ssswriteCsv($clientdata);
      //$msg = "Your data has been successfully saved";
      //$messages = array($msg);
+   }
      return view('client/index');
-    //echo "Santosh";
   }
 }
 
