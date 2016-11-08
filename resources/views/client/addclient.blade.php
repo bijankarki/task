@@ -73,7 +73,7 @@
                     <div class="form-group">
                         <button type="submit" class="btn-default" value="submit">Submit</button>
                         <button type="reset" class="btn-default">Clear</button>
-                        <button type="button" class="btn-default" onclick="parent.location='./index'">Cancel</button>
+                        <button type="button" class="btn-default" onclick="parent.location='../../../'">Cancel</button>
                     </div>
                     <p id="display-status">
 
