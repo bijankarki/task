@@ -18,5 +18,5 @@ Route::get('/index',function(){
     return view('client/index');
 });
 Route::get('/laravel/public/addclient','Index@index');
-Route::post('/laravel/public/submit','Index@submit');
+Route::post('/submit','Index@submit');
 Route::get('/laravel/public/viewall','Index@viewall');

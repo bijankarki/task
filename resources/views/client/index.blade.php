@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Employee</title>
+        <title>Client</title>
         <meta charset="UTF-8">
 
         <link type="text/css" rel="stylesheet" href="{{asset('assets/bootstrap/css/bootstrap.css')}}" />
