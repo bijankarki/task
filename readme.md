@@ -17,6 +17,9 @@ http://laraveltaskapp.herokuapp.com/
 ## Screen shots
 check inside the screenshot folder
 https://github.com/bijankarki/task/blob/master/screenshot/1.PNG
+https://github.com/bijankarki/task/blob/master/screenshot/1.PNG
+https://github.com/bijankarki/task/blob/master/screenshot/1.PNG
+https://github.com/bijankarki/task/blob/master/screenshot/1.PNG
 
 
 
