@@ -5,13 +5,18 @@ Laravel is a web application framework 5.1 is used to build the project. Laravel
 
 ## Features
 
-- At first client dashboard you can either add new client or view all clients.
-- For adding clients detail enter all specified form and click submit.
-- On clicking View all Clients, shows all the clients in tabular form.
+1) At first client dashboard you can either add new client or view all clients.
+2) For adding clients detail enter all specified form and click submit.
+3) While submitting the fields are validated from front end side. 
+3) On clicking View all Clients, shows all the clients in tabular form.
 
 ## Application Link
-
 The application can be found in the following link.
+http://laraveltaskapp.herokuapp.com/
+
+## Screen shots
+check inside the screenshot folder
+
 
 
 
